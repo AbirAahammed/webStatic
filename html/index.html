@@ -1,7 +1,86 @@
 <!DOCTYPE html>
-<html>
-    <head></head>
-    <body>
-        
-    </body>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+        <nav class="navbar sticky-top navbar-default">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="#">WebSiteName</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                  </ul>
+                </div>
+              </nav>
+        <div id="portfolioslides" class="carousel slide center-block" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#portfolioslides" data-slide-to="0" class="active"></li>
+                  <li data-target="#portfolioslides" data-slide-to="1"></li>
+                  <li data-target="#portfolioslides" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="item active">
+                        <img src="../img/img1.jpg" alt="placeholder">
+                        <div class="carousel-caption">
+                      <h3>Leslie Knope Tribute Page</h3>
+                      <p>Parody tribute/campaign page for Leslie Knope from <em>Parks and Recreation</em>.</p>
+                      <p><i class="fa fa-html5"></i> HTML 5, <i class="fa fa-css3"></i> CSS3, & Bootstrap</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                        <img src="../img/img1.jpg" alt="placeholder">
+                        <div class="carousel-caption">
+                      <h3>Leslie Knope Tribute Page</h3>
+                      <p>Parody tribute/campaign page for Leslie Knope from <em>Parks and Recreation</em>.</p>
+                      <p><i class="fa fa-html5"></i> HTML 5, <i class="fa fa-css3"></i> CSS3, & Bootstrap</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="../img/img3.jpg" alt="placeholder">
+                    <div class="carousel-caption">
+                      <h3>Wikipedia Viewer (placeholder)</h3>
+                      <p>framework a, framework b, framework c</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- <a class="left carousel-control" href="#portfolio-slides" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#portfolio-slides" data-slides="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a> -->
+              </div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
+
